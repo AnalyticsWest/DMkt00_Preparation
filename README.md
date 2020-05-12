@@ -1,7 +1,7 @@
 # Preparation for work
 
 
-## Github
+## Github (one-off)
 To see team collaboration:
 
 1. Open a github account: github.com
@@ -9,7 +9,7 @@ To see team collaboration:
 3. Accept the collaboration invitation
 
 
-## Install software
+## Install software (one-off)
 
 Get the latest version!
 
@@ -18,19 +18,21 @@ Get the latest version!
 - git: https://git-scm.com/
 
 
-## Connect Rstudio to Github using SSH
+## Connect Rstudio to Github using SSH (one-off)
 
-1. In Rstudio, under the terminal tab
+1. Enable version control in Rstudio: https://happygitwithr.com/rstudio-see-git.html
+2. Create an SSH key pair: Go to Tools > Global Options…> Git/SVN > Create RSA Key.
+3. Copy the key and paste it to Github: https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
+4. In Rstudio, under the terminal tab
 ```git
 git config --global user.name 'Your name'
 git config --global user.email 'Your registered email on github'
 
 ```
-2. Create an SSH key pair: Go to Tools > Global Options…> Git/SVN > Create RSA Key.
-3. Copy the key and paste it to Github: https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
 
 
-## Start with git project
+
+## Start with git project (ongoing)
 To use the standard projects and packages developed by Lavinia, you will need to do the following:
 1. Fork and clone at github: Part 28.1 of https://happygitwithr.com/fork-and-clone.html
 2. Start project locally: Part 15.2 of https://happygitwithr.com/new-github-first.html
