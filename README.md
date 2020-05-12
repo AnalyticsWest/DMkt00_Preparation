@@ -28,7 +28,7 @@ git config --global user.email 'Your registered email on github'
 3. Copy the key and paste it to Github: https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
 
 
-# Start with git project
+### Start with git project
 To use the standard projects and packages developed by Lavinia, you will need to do the following:
 1. Fork and clone at github: Part 28.1 of https://happygitwithr.com/fork-and-clone.html
 2. Start project locally: Part 15.2 of https://happygitwithr.com/new-github-first.html
