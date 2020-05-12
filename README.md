@@ -1,5 +1,14 @@
 # Preparation for work
 
+
+## Github
+To see team collaboration:
+
+1. Open a github account: github.com
+2. Send the username to Lavinia to join the private team collabration
+3. Accept the collaboration invitation
+
+
 ## Install software
 
 Get the latest version!
@@ -7,13 +16,6 @@ Get the latest version!
 - R: https://www.r-project.org/
 - RStudio: https://rstudio.com/products/rstudio/
 - git: https://git-scm.com/
-
-
-## Github
-
-1. Open a github account: github.com
-2. Send the username to Lavinia to join the private team collabration
-3. Accept the collaboration invitation
 
 
 ## Connect Rstudio to Github using SSH
