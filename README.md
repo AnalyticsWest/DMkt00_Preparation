@@ -40,8 +40,12 @@ To use the standard projects and packages developed by Lavinia, you will need to
 4. Pull request (optional): https://happygitwithr.com/pr-extend.html
 
 
-## More about git (For knowledge)
+## More about git and R (For knowledge)
 A well-written book by Jenny Bryan talking about git:
 1. Git basics: https://happygitwithr.com/git-intro.html 
-2. Full book: https://happygitwithr.com/ 
+2. Full book: https://happygitwithr.com/
+
+
+## Handle large file
+git lfs: https://git-lfs.github.com/
 
