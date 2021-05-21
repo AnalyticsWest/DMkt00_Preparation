@@ -18,11 +18,19 @@ Get the latest version!
 - git: https://git-scm.com/
 
 
-## Connect Rstudio to Github using SSH (one-off)
+## Connect Rstudio to Github using personal token (one-off)
+Details: https://happygitwithr.com/credential-caching.html
+
 
 1. Enable version control in Rstudio: https://happygitwithr.com/rstudio-see-git.html
-2. Create an SSH key pair: Go to Tools > Global Options…> Git/SVN > Create RSA Key.
-3. Copy the key and paste it to Github: https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
+2. Create personal token on github: https://github.com/settings/tokens
+3. Install package `install.packages("gitcreds")`, then call the library and paste the personal token.
+
+```{r}
+library(gitcreds)
+gitcreds_set()
+```
+
 4. In Rstudio, under the terminal tab
 ```git
 git config --global user.name 'Your name'
